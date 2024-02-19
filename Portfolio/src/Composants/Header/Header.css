@@ -1,0 +1,35 @@
+header {
+margin-top: 2vh;
+justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    color: #F1F1F1F1;
+}
+
+header li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.headline-container {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    border-top: 1px solid #f1f1f1;
+    width: 80%;
+}
