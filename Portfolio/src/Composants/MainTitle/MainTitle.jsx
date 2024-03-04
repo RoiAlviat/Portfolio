@@ -1,10 +1,10 @@
-import Logo from "../../Assets/Profil.jpg"
+import Profil from "../../Assets/Profil.jpg"
 import "./MainTitle.css"
 function MainTitle() {
     return (
         <div className="MainTitle-container">
             <div class="h1-container">
-                <img src={Logo} alt="logo"/>
+                <img src={Profil} alt="logo"/>
             </div>
 
             <div class="h2-container">

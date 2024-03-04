@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 function Sections({sectionName, sectionText, sectionPath}) {
     return(
         <div class="bloc1">
-            <div class="desc1">{sectionText}</div>
+            <div class="desc1" style={{textAlign:"center"}}>{sectionText}</div>
             <div class="h3-container">
-                <Link to={sectionPath} style={{textDecoration:"none", color:"#F1F1F1F1"}}>
-                    <h3>{sectionName}<i class="fa-solid fa-arrow-right"></i></h3>
-                </Link>
+
+                    <h3 style={{display:"flex", alignItems:"center", gap:"1vw"}}>{sectionName}<i class="fa-solid fa-arrow-right"></i></h3>
+
             </div>
         </div>
     )

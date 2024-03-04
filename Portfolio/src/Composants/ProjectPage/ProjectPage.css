@@ -1,0 +1,162 @@
+.main-project-page {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f1f1f1;
+    border-radius: px;
+}
+
+.headerbis {
+    display: flex;
+    margin-top: 3vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    height: 80px;
+  }
+
+.headerbis h1 {
+        font-size: 40px;
+        margin: 0;
+        letter-spacing: 3px;
+        font-weight: 700;
+        width: 55%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+.main-project-page img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+}
+
+.main-project-page h2 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  .main-project-page p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  .main-project-page ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+
+  .main-project-page li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .bolded {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #70b4eb;
+  }
+  .main-project-page li:before {
+    content: "\2022";
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .li-underline {
+   text-decoration: underline; 
+  }
+
+  .main-project-page h3 {
+
+    text-align: center;
+    color: #70b4eb;
+    
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .contrainte {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .main-project-page button {
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .main-project-page button:hover {
+    background-color: #4e4e4e;
+  }
+
+  .swiper {
+    width: 800px;
+    height: 400px;
+  }
+
+  .youtube {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    border: 1px solid black;
+  }
+
+  .end {
+    display: block;
+    width: 100000px;
+    transform: translateX(-1500px);
+    height: 1px;
+    border-bottom: 1px solid white;
+    margin-top: 35px;
+  }
+
+  .center {
+    text-align: center;
+    color: #70b4eb;
+  }
+
+  .link-center {
+    display: flex;
+    justify-content: center;
+    color: #70b4eb;
+    text-decoration: underline;
+  }
+  
+  .link-center p {
+    font-size: 26px;
+  }
+  
+  .h3-project-margin {
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+  }

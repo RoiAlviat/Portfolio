@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
         
-        <nav class="header-nav">
+        <nav className="header-nav">
             <ul>
                 <li><Link to="/" style={{textDecoration:"none", color:"#F1F1F1F1"}}>Accueil</Link></li>
                 <li><Link to="/profil" style={{textDecoration:"none", color:"#F1F1F1F1"}}> Profil</Link></li>
@@ -13,8 +13,8 @@ function Header() {
                 <li><Link to="/contact" style={{textDecoration:"none", color:"#F1F1F1F1"}}>Contact</Link></li>
             </ul>
         </nav>
-        <div class="headline-container">
-            <div class="headline"></div>
+        <div className="headline-container">
+            <div className="headline"></div>
         </div>
     </header>
     )

@@ -1,43 +1,88 @@
-.projet-container {
-    margin-top: 4vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 90%;
-}
+
 
 .projet-surcontainer {
     display: flex;
     justify-content: center;
 }
 .tp-container {
+    position: relative;
     border-radius: 5px;
     background-size: cover;
-    background-position-x: -50px;
-    height: 35vh;
-    width: 14vw;
+    background-position-x: -60px;
+    height: 320px;
+    width: 200px;
     transition: 0.5s ease-in;
 }
 
-.p1 {
-    background-image: url(../../Assets/Booki.png);
+.mao {
+    background-image: url(../../Assets/Projets/Mao.png);
 }
 
-.p2 {
-    background-image: url(../../Assets/ohmyfood.png);
+.balor {
+    background-image: url(../../Assets/Projets/Echoes.png);
 }
 
-.p3 {
-    background-image: url(../../Assets/sophie.png);
-    background-position: -100px;
+.rooty {
+    background-image: url(../../Assets/Projets/RootyTrail.png);
 }
 
-.p4 {
-    background-image: url(../../Assets/kasa.png);
-    background-position: -300px;
+.theincredible {
+    background-image: url(../../Assets/Projets/Adventure.png);
 }
 
-.p5 {
-    background-image: url(../../Assets/argentbank.png);
-    background-position: -500px;
+.breakinloop {
+    background-image: url(../../Assets/Projets/Loop.png);
+}
+
+.projet-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72vh;
+}
+
+.tp-container:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+    border: 2px solid white;
+}
+
+
+.tp-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #f1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.tp-container h3 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #f1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    width: 200px;
+}
+
+.tp-container h4 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #f1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    width: 200px;
 }

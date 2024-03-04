@@ -1,0 +1,41 @@
+
+
+#contenu3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 60vh;
+}
+
+
+#contenu3 p {
+  text-align: center;
+ margin-top: 3vh;
+    width: 70vw;
+    height: 23vh;
+    font-size: 1.2vw;
+    line-height: 35px;
+  color: #F1F1F1F1;
+}
+
+#contenu3 h2 {
+  color: #F1F1F1F1;
+  
+  font-size: 3vh;
+}
+
+.astro-pote {
+    position: absolute;
+    z-index: -5;
+    width: 13vw;
+    transform: translate(-30vw, 11vw);
+  }
+
+  .astro-the {
+    position: absolute;
+    z-index: -5;
+    width: 13vw;
+    transform: translate(28vw, -9vw);
+  }

@@ -1,0 +1,39 @@
+
+.span-gras {
+  font-weight: bold;
+}
+
+#contenu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#contenu2 p {
+    margin-top: 55px;
+    font-size: 1.2vw;
+    width: 80%;
+    line-height: 35px;
+    color: #F1F1F1F1;
+    text-align: center;
+}
+
+#contenu2 h2 {
+  color: #F1F1F1F1;
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+
+.astro-crayon {
+    position: absolute;
+    z-index: -5;
+    width: 12vw;
+    transform: translate(34vw, -2vw);
+  }
+  .astro-livre {
+    position: absolute;
+    z-index: -5;
+    width: 12vw;
+    transform: translate(-34.2vw, 26vw);
+  }
