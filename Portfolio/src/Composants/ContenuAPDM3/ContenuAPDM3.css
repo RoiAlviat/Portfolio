@@ -39,3 +39,20 @@
     width: 13vw;
     transform: translate(28vw, -9vw);
   }
+
+  @media (max-width: 920px) {
+
+    .astro-pote {
+      width: 20vw;
+      transform: translate(-30vw, 30vw);
+    }
+
+    .astro-the {
+      width: 20vw;
+      transform: translate(40vw, -14vw);
+    }
+
+    #contenu3 p {
+      font-size: 3vw;
+    }
+  }

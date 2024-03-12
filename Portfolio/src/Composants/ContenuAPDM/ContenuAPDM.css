@@ -72,3 +72,25 @@
     z-index: -5;
     width: 13vw;
   }
+
+  @media (max-width: 920px) {
+
+    #contenu1 h2 {
+      font-size: 3vw;
+    }
+
+    .astro-gauche {
+      width: 30vw;
+      transform: translate(-39vw);
+    }
+
+    .astro-planete {
+      width: 30vw;
+      transform: translate(28vw, 19vh);
+    }
+
+    .astro-fusee {
+      width: 30vw;
+      transform: translate(-33vw, 29vw);
+    }
+   }

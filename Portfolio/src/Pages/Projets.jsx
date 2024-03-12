@@ -11,8 +11,9 @@ function Projets() {
             <Header/>
             <TextProjects/>
             <div className="projet-container">
-             <Link to="https://github.com/RoiAlviat"><img className="github" src={Github}/></Link>
-            </div>        </>
+                <ProjectsFrame pathName="/Redux" className="redux" />
+                <ProjectsFrame pathName="/React" className={"react"}/>
+            </div>       </>
     )
 }
 

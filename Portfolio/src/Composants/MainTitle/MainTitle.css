@@ -45,3 +45,18 @@
 }
 
 
+@media (max-width: 920px) {
+
+    .h1-container img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .h2-container h2 {
+        font-size: 9vw;
+    }
+    
+ .h2-container h3 {
+    font-size: 5vw;
+ }
+}

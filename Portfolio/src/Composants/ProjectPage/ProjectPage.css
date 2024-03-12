@@ -43,17 +43,19 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    text-align: center;
     
   }
   .main-project-page p {
     font-size: 16px;
     line-height: 1.5;
     margin-top: 10px;
+    text-align: center;
   }
   .main-project-page ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -88,9 +90,9 @@
   }
 
   .main-project-page h3 {
-
-    text-align: center;
+    display: block;
     color: #70b4eb;
+    text-align: center;
     
   }
 
@@ -159,4 +161,11 @@
   .h3-project-margin {
     margin-top: 4vh;
     margin-bottom: 3vh;
+  }
+
+  @media (max-width: 920px) {
+    .swiper {
+      width: 80vw;
+      height: auto;
+    }
   }

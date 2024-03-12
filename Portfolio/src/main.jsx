@@ -6,11 +6,8 @@ import Accueil from './Pages/Accueil.jsx'
 import Contact from './Pages/Contact.jsx'
 import Projets from './Pages/Projets.jsx'
 import Profil from './Pages/Profil.jsx'
-import Breakintheloop from './Pages/ProjectPages/Breakintheloop.jsx'
-import Rooty from './Pages/ProjectPages/Rooty.jsx'
-import Mao from './Pages/ProjectPages/Mao.jsx'
-import Incredible from './Pages/ProjectPages/Incredible.jsx'
-import Echo from './Pages/ProjectPages/Echo.jsx'
+import Redux from './Pages/ProjectPages/Redux.jsx'
+import ReactPro from './Pages/ProjectPages/React.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,17 +27,11 @@ const router = createBrowserRouter([
     element: <Profil/>
   },
   {
-    path:"/Breakintheloop",
-    element: <Breakintheloop/>
+    path: "/Redux",
+    element: <Redux/>
   },
-  {path:"/Rooty",
-    element: <Rooty/>},
-  {path:"/Mao",
-    element: <Mao/>},
-  {path:"/Incredible",
-    element: <Incredible/>},
-  {path:"/Echo",
-    element: <Echo/>}
+  {path:"/React",
+element: <ReactPro/>}
 ])
 
 

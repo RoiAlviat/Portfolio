@@ -24,3 +24,14 @@ h3 {
     width: 300px;
 }
 
+@media (max-width: 920px) {
+
+    .h3-container h3 {
+        font-size: 3vw;
+    }
+
+    .bloctxt-container {
+        flex-direction: column;
+    }
+}
+

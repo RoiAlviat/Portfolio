@@ -3,11 +3,11 @@ import "./MainTitle.css"
 function MainTitle() {
     return (
         <div className="MainTitle-container">
-            <div class="h1-container">
+            <div className="h1-container">
                 <img src={Profil} alt="logo"/>
             </div>
 
-            <div class="h2-container">
+            <div className="h2-container">
                 <h2>Développeur Web</h2>
                 <h3>Guillaume Dhenin</h3>
             </div>

@@ -34,6 +34,18 @@
     background-image: url(../../Assets/Projets/Loop.png);
 }
 
+.redux {
+    background-image: url(../../Assets/Projets/redux.png);
+    background-position: -510px;
+    border: 2px solid black;
+}
+
+.react {
+    background-image: url(../../Assets/Projets/react.png);
+    background-position: -70px;
+    border: 2px solid black;
+}
+
 .projet-container {
     display: flex;
     justify-content: space-around;

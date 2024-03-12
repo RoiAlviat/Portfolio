@@ -77,3 +77,19 @@
     width: 250px;
     height: auto;
   }
+
+  @media (max-width: 920px) {
+
+    .image img {
+      width: 40vw;
+    }
+
+    #contenu4 h2 {
+      font-size: 6vw;
+    }
+
+    #contenu4 p {
+      font-size: 4vw;
+    }
+
+  }

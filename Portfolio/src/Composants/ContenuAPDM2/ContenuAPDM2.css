@@ -37,3 +37,19 @@
     width: 12vw;
     transform: translate(-34.2vw, 26vw);
   }
+
+  @media (max-width: 920px) {
+
+   #contenu2 p {
+    font-size: 3vw;
+   }
+   .astro-crayon {
+    transform: translate(34vw, 0vw);
+    width: 20vw;
+   }
+
+   .astro-livre {
+    transform: translate(-39vw, 37vw);
+    width: 20vw;
+   }
+  }
