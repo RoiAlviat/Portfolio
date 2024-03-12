@@ -31,10 +31,10 @@ function ProjectPage3({projecth1, projectDesc,liDetails5, liDetails6,githublink
       slidesPerView={1}
       navigation={true}
     >
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaError}/></SwiperSlide>
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaHome}/></SwiperSlide>
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaProfil}/></SwiperSlide>
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaAbout}/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaError} alt='Slider 1'/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaHome} alt='Slider 2'/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaProfil} alt='Slider 3'/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={KasaAbout} alt='Slider 4'/></SwiperSlide>
 
     </Swiper>
       <h2>Description du projet</h2>

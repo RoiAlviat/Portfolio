@@ -4,7 +4,7 @@ function MainTitle() {
     return (
         <div className="MainTitle-container">
             <div className="h1-container">
-                <img src={Profil} alt="logo"/>
+                <img src={Profil} alt="Logo de Guillaume Dhenin"/>
             </div>
 
             <div className="h2-container">

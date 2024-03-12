@@ -10,7 +10,7 @@ import "./Profil.css"
 
 function Profil() {
 
-    let [Btn, setBtn] = useState(null)
+    let [Btn, setBtn] = useState("Général")
 
     function clickHandler(btnName) {
 

@@ -1,5 +1,5 @@
 .blue {
-    color: #70b4eb;
+    color: #5767f3;
   }
 
   .italic {
@@ -76,6 +76,10 @@
   @media (max-width: 920px) {
 
     #contenu1 h2 {
+      font-size: 3vw;
+    }
+
+    #contenu1 p {
       font-size: 3vw;
     }
 

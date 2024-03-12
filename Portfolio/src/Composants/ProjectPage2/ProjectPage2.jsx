@@ -30,9 +30,9 @@ function ProjectPage2({projecth1, projectDesc,liDetails5, liDetails6,githublink
       slidesPerView={1}
       navigation={true}
     >
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={ArgentbankProfil}/></SwiperSlide>
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={Argentbankhome}/></SwiperSlide>
-      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={ArgentbankLogin}/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={ArgentbankProfil} alt='Slider 1'/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={Argentbankhome} alt='Slider 2'/></SwiperSlide>
+      <SwiperSlide style={{display:"flex", justifyContent:"center", alignItems:"center"}}><img src={ArgentbankLogin} alt='Slider 3'/></SwiperSlide>
 
     </Swiper>
       <h2>Description du projet</h2>
