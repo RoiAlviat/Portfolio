@@ -2,14 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1440px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 html {
-  
-  background-image: url(./Assets//background.png);
-  backdrop-filter: brightness(25%) !important;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(./Assets//background.png);
+}
+
+/* Masquer la barre de défilement sur l'axe horizontal (X) */
+html::-webkit-scrollbar {
+  height: 0;  /* Masquer la hauteur de la barre de défilement */
+  width: initial;  /* Réinitialiser la largeur de la barre de défilement */
+}
+
+/* Masquer le pouce de la barre de défilement */
+html::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Afficher la barre de défilement uniquement sur l'axe vertical (Y) */
+html {
+  overflow-x: hidden;  /* Masquer le défilement horizontal */
+  overflow-y: auto;    /* Activer le défilement vertical si nécessaire */
+}
+
+body {
+height: 98vh;
+}
+
+@media (max-width: 920px) {
+  html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+  }
 }
